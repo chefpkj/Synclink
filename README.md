@@ -55,9 +55,10 @@ I had some issues in order to implement fetch api in useEffect hooks in some com
 - React.js
 - Parcel
 - Redux-toolkit
-- Tailwind
 - Node.js
 - Bcypt
 - Json Web Token
+- Formik
+- Joi
 - Tailwind-CSS
 - Shimmer-UI
