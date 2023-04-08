@@ -2,7 +2,7 @@
 It is a browser extension to sync links, clipboard text,etc across devices and browsers.   
 
 ## App Demo
-Link to video
+[Link to video](https://youtu.be/Sa2HwuwP0Cc)
 
 ## To Run App In Your Local Machine
 You need to write the following commands on the terminal screen so that you can run this project locally.
