@@ -2,7 +2,8 @@
 It is a browser extension to sync links, clipboard text,etc across devices and browsers.   
 
 ## App Demo
-<img src="https://github.com/chefpkj/Synclink/blob/main/Synclink.gif"/>
+<img src="https://github.com/chefpkj/Synclink/blob/main/Synclink.gif" height="500"/>
+
 [Link to video](https://youtu.be/Sa2HwuwP0Cc)
 
 ## To Run App In Your Local Machine
