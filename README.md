@@ -51,7 +51,7 @@ This application should now be running on `localhost`. But If you'll try to run 
 It will open a new window of chrome with disabled CORS. Now you can explore Synclink!! 
 
 ## Problems I Faced
-I had some issues in order to implement fetch api in useEffect hooks in some components, I tried axios as well but got some errors during installing it after reading its documentations the issue was resolved. So that was a bummer for me, but I overcame that problem shortly and droped the idea of using axios instead of fetch api as I want my application to be performant but adding an extra is not a wise choice. 
+I had some issues in order to implement fetch api in useEffect hooks in some components, I tried axios as well but got some errors during installing it after reading its documentations the issue was resolved. So that was a bummer for me, but I overcame that problem shortly and dropped the idea of using axios instead of fetch api as I want my application to be performant but adding an extra is not a wise choice. 
 
 ## Technologies Used
 - React.js
