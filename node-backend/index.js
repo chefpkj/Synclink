@@ -6,7 +6,7 @@ const links=require("./routes/links");
 const mongoose=require("mongoose");
 
 
-mongoose.connect("mongodb://localhost/synclink")
+mongoose.connect("mongodb://127.0.0.1/synclinks")
                                             .then(()=>console.log("connected to db..."))
                                             .catch((err)=>console.error('Error:',err));
 

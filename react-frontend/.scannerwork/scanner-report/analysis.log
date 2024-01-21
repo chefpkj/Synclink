@@ -1,0 +1,42 @@
+Plugins:
+Bundled analyzers:
+  - Python Code Quality and Security 4.10.0.13725 (python)
+  - Clean as You Code 2.2.2.656 (cayc)
+  - Go Code Quality and Security 1.15.0.4655 (go)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - Kotlin Code Quality and Security 2.18.0.2938 (kotlin)
+  - IaC Code Quality and Security 1.22.0.7057 (iac)
+  - JavaScript/TypeScript/CSS Code Quality and Security 10.9.0.24449 (javascript)
+  - Ruby Code Quality and Security 1.15.0.4655 (ruby)
+  - Scala Code Quality and Security 1.15.0.4655 (sonarscala)
+  - C# Code Quality and Security 9.13.0.79967 (csharp)
+  - Java Code Quality and Security 7.27.1.33504 (java)
+  - HTML Code Quality and Security 3.11.0.4708 (web)
+  - Flex Code Quality and Security 2.12.0.4568 (flex)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+  - PHP Code Quality and Security 3.33.0.11274 (php)
+  - Text Code Quality and Security 2.7.1.1388 (text)
+  - VB.NET Code Quality and Security 9.13.0.79967 (vbnet)
+  - Configuration detection for Code Quality and Security 1.3.0.654 (config)
+Global server settings:
+  - sonar.core.id=147B411E-AYz4hzmtqUa-lAlyY3jA
+  - sonar.core.startTime=2024-01-11T12:37:38+0000
+  - sonar.forceAuthentication=true
+  - sonar.qualityProfiles.allowDisableInheritedRules=true
+Project server settings:
+Project scanner properties:
+  - sonar.eslint.reportPaths=reports/eslint-report.json
+  - sonar.host.url=http://localhost:9000
+  - sonar.language=js
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=C:\Users\RNF-User\Desktop\Synclink\react-frontend
+  - sonar.projectKey=test1
+  - sonar.projectName=test1
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=3.1.0.1141
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src
+  - sonar.token=******
+  - sonar.working.directory=C:\Users\RNF-User\Desktop\Synclink\react-frontend\.scannerwork

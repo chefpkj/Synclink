@@ -41,7 +41,6 @@ function isValid(req_body)
         links:joi.array(),
     }
     return joi.validate(req_body,schema);
-
 }
 
 

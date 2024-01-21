@@ -32,6 +32,7 @@ const Basic = () => {
 
 
     function postData(data){
+      console.log(data,"dd");debugger;
         fetch("http://localhost:3017/login/",{
             method:'POST',
             headers:{
