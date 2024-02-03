@@ -1,5 +1,5 @@
 # Synclink                                  
-It is a browser extension to sync links, clipboard text,etc across devices and browsers.   
+It is a browser extension to sync links, clipboard text,etc across devices and browsers.s   
 
 ## App Demo
 <img src="https://github.com/chefpkj/Synclink/blob/main/Synclink.gif" height="450"/>
