@@ -9,8 +9,10 @@ const getAllNotes = async (req_body_id) => {
 const addNotes = async (req_body) => {
   try {
     //getting the user from db
-    let user = await Users.findById(req_body?._id);
+    let user = await Users.findById(req_body?.id);
+    console.log(user,"end")
     user.notes = [...user?.notes, ...req_body?.notes];
+    console.log("this is it",user.notes);
     const result = await user.save();
     return result;
   } catch (err) {
@@ -22,7 +24,7 @@ const addNotes = async (req_body) => {
 const getSpecificNotes = async (req_body) => {
   try {
     //getting the user from db
-    let user = await Users.findById(req_body?._id);
+    let user = await Users.findById(req_body?.id);
     //checking if notes id is pesent or not
     const result = user?.notes[req_body?.notesId];
     if (!result) {
@@ -48,7 +50,7 @@ const getSpecificNotes = async (req_body) => {
 const updateNotes = async (req_body) => {
   try {
     //getting user from Db
-    const user = await Users.findById(req_body?._id);
+    const user = await Users.findById(req_body?.id);
     //checking if notes id is pesent or not
     const result = user?.notes[req_body?.notesId];
     if (result === undefined) {
@@ -76,7 +78,7 @@ const updateNotes = async (req_body) => {
 const deleteNotes = async (req_body) => {
   try {
     //getting user from Db
-    const user = await Users.findById(req_body?._id);
+    const user = await Users.findById(req_body?.id);
     //checking if notes id is pesent or not
     const result = user?.notes[req_body?.notesId];
     if (result === undefined) {
@@ -104,7 +106,7 @@ const deleteNotes = async (req_body) => {
 const shareNotes = async (req_body) => {
   try {
     //getting user from Db
-    const user = await Users.findById(req_body?._id);
+    const user = await Users.findById(req_body?.id);
     //checking if notes id is pesent or not
     const result = user?.notes[req_body?.notesId];
     if (result === undefined) {
@@ -114,7 +116,7 @@ const shareNotes = async (req_body) => {
       };
     }
     //if note is present share it with others users
-    const AllUsers = await Users.find({ _id: { $ne: req_body?._id } });
+    const AllUsers = await Users.find({ id: { $ne: req_body?.id } });
     AllUsers.map(async (eachUser) => {
       eachUser.notes.push(result);
       const tempResult = await eachUser.save();
@@ -136,8 +138,10 @@ const shareNotes = async (req_body) => {
 const search = async (req_body) => {
   try {
     //getting user from Db
-    const user = await Users.findById(req_body?._id);
+
+    const user = await Users.findById(req_body?.id);
     const result = [];
+    
     //searh logic
     user?.notes.map((eachNotes) => {
       let position = eachNotes.search(new RegExp(req_body?.keyword, "i"));

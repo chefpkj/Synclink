@@ -40,11 +40,13 @@ const AddItems=()=>{
     //////////////////////////////////////////////////
 
       //  function to post data to the server 
-    function postData(dataa){        
+    function postData(dataa){     
+      
+      
     
-        const data = { "link": dataa };
+        const data = { "notes": [dataa] };
      
-         fetch(url+"/links/", {
+         fetch(url+"/notes/", {
           method: 'POST', // or 'PUT'
           headers: {
             "Content-Type": "application/json",
@@ -84,6 +86,7 @@ const AddItems=()=>{
         <Link ref={clickB} to="/home"  className="text-sm mx-4 pt-3 px-2 font-extralight	 text-[#FCFCFC] hover:bg-[#4C525F] hover:rounded-md hover:text-white hover:cursor-pointer"><span>Cancel</span></Link>
         <span className="text-sm mx-4 pt-3 px-2 font-extralight	 text-[#FCFCFC] hover:cursor-pointer">Add item</span>
         <span onClick={(e)=>{
+            
                 postData(searchTxt);
             }} id="AddItem_cancel" className="text-sm mx-4 pt-3 px-2 font-extralight text-[#FCFCFC] hover:bg-[#4C525F] hover:cursor-pointer hover:rounded-md hover:text-white">Save</span>
         </div>
@@ -91,8 +94,6 @@ const AddItems=()=>{
         </>
         <>
          
-
-
          {/* my textarea  */}
          <div className="flex justify-center">
             

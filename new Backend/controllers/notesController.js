@@ -1,6 +1,7 @@
 import notesDbLayer from "../databaseLayer/notesDbLayer.js";
 const getAllNotes = async (req, res) => {
-  const AllLink = await notesDbLayer.getAllNotes(req.body._id);
+ 
+  const AllLink = await notesDbLayer.getAllNotes(req.body.id);
   return res.status(200).send(AllLink);
 };
 
@@ -16,7 +17,7 @@ const addNotes = async (req, res) => {
 
 const getSpecificNotes = async (req, res) => {
   const result = await notesDbLayer?.getSpecificNotes({
-    _id: req.body._id,
+    id: req.body.id,
     notesId: req.params?.id,
   });
   if (result.status === 200) {
@@ -35,7 +36,7 @@ const updateNotes = async (req, res) => {
   }
 
   const result = await notesDbLayer.updateNotes({
-    _id: req?.body?._id,
+    id: req?.body?.id,
     notesId: req.params?.id,
     updatedNotes: req.body?.notes,
   });
@@ -51,7 +52,7 @@ const updateNotes = async (req, res) => {
 
 const deleteNotes = async (req, res) => {
   const result = await notesDbLayer.deleteNotes({
-    _id: req?.body?._id,
+    id: req?.body?.id,
     notesId: req.params?.id,
   });
   if (result?.status === 200) {
@@ -63,7 +64,7 @@ const deleteNotes = async (req, res) => {
 
 const shareNotes = async (req, res) => {
   const result = await notesDbLayer.shareNotes({
-    _id: req?.body?._id,
+    id: req?.body?.id,
     notesId: req.params?.id,
   });
   if (result?.status === 200) {
@@ -74,14 +75,16 @@ const shareNotes = async (req, res) => {
 };
 
 const search = async (req, res) => {
+  
   //corner case
   if (!req.query?.q.length) {
     return res
       .status(400)
       .send("No keyword to search.(use this format: '/api/search?q=keyword')");
   }
+  
   const result = await notesDbLayer.search({
-    _id: req?.body?._id,
+    id: req?.body?.id,
     keyword: req.query.q,
   });
   if (result?.status === 200) {

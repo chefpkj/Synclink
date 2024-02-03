@@ -1,7 +1,7 @@
 import { Link,useParams } from "react-router-dom";
 import { useEffect,useState,useRef } from "react";
 import { InfoPageShimmer } from "./Shimmer";
-import { url,trashUrl,crossUrl } from "../constants";
+import { url,trashUrl,crossUrl, baseURL } from "../constants";
 import { useDispatch,useSelector } from "react-redux";
 import { setLink, setReduxTrigger } from "../utils/triggerSlice";
 import Popup from "./Popup";
@@ -20,15 +20,16 @@ const UpdateItem=()=>{
       }, []);
       async function getLinkInfo() {
         const data = await fetch(
-          url+"/links/"+id,{
+          baseURL+"/notes/"+id,{
             method:'GET',
             headers:{
                 "x-auth-token":localStorage.getItem("synclink_x-auth-token"),
             }
           }
         );
-        const json = await data.json();
-        setLinkInfo(json[0]);
+        const json = await data.text();
+        console.log(json)
+        setLinkInfo(json);
         setIsLoaded(true);
       };
 
@@ -61,7 +62,7 @@ const UpdateItem=()=>{
 
       //function to delete the particular link
       function deleteData(){
-        fetch(url+"/links/"+id,{
+        fetch(baseURL+"/notes/"+id,{
             method:'DELETE', 
             headers:{
                 "x-auth-token":localStorage.getItem("synclink_x-auth-token"),

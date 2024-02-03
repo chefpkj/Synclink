@@ -5,7 +5,7 @@ import {MainShimmer} from "./Shimmer";
 import Popup from "./Popup";
 import { useSelector,useDispatch } from "react-redux";
 import { setReduxTrigger } from "../utils/triggerSlice";
-import { tickUrl, url } from "../constants";
+import { baseURL, tickUrl, url } from "../constants";
 
 
 
@@ -30,7 +30,7 @@ const Body=()=>{
       }, []);
       async function getLinks() {
         const data = await fetch(
-          url+"/links/",{
+          baseURL+"/notes/",{
             method:'GET',
             headers:{
                 "x-auth-token":localStorage.getItem("synclink_x-auth-token"),

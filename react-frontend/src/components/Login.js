@@ -2,6 +2,7 @@ import React,{useState,useRef} from "react";
 import {Formik} from "formik";
 import rocket_logo from "../components/assets/img/rocket_logo2.png"
 import { Link } from "react-router-dom";
+import { baseURL } from "../constants";
 // "../assets/img/rocket_logo2.png"
 
 
@@ -30,36 +31,33 @@ const Basic = () => {
         }, 1200);
     }
 
-
-    function postData(data){
-      console.log(data,"dd");debugger;
-        fetch("http://localhost:3017/login/",{
-            method:'POST',
-            headers:{
-                "Content-Type": "application/json",
-                'Access-Control-Allow-Origin':'*'
-            },
-            body:JSON.stringify(data),
-        })
-        .then((response) => {      
-            if(response.status === 200){
-                const jaya=response.headers.get('x-auth-token');
-                localStorage.setItem("synclink_x-auth-token",jaya);
-                // console.log(jaya);
-                go_to_home();
-                // alert(jaya);
-            }
-            else{     
-                setInvalidMsg(true);
-                return 0;
-           }
-        })
-        
+    function postData(data) {
     
-    }
-
+      fetch(`${baseURL}/auth/login`, {
+          method: 'POST',
+          headers: {
+              "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+      })   
+      .then(response => {
+          if (response.ok) {
+              return response.text();
+          } else {
+              setInvalidMsg(true);
+              return Promise.reject("Error");
+          }
+      })
+      .then(token => {
+          localStorage.setItem("synclink_x-auth-token", token);
+          go_to_home();
+      })
+      .catch(error => {
+          // Handle errors here
+          console.error("Error:", error);
+      });
+  }
   
-
     return (
     <div>
       <Formik

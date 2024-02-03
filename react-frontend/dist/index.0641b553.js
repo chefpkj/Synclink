@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("9d1996d7f2a35223");
-var ErrorOverlay = require("29c1ae5035fbcf12");
+var Refresh = require("1a1a167c7eae7fcd");
+var ErrorOverlay = require("5420256b598d8c72");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"9d1996d7f2a35223":"786KC","29c1ae5035fbcf12":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"1a1a167c7eae7fcd":"786KC","5420256b598d8c72":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("fb0e4e42015a895c");
+module.exports = require("a55f6047158b5704");
 
-},{"fb0e4e42015a895c":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"a55f6047158b5704":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("fb0e4e42015a895c");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("b5ed1f6a3f8cd7a1");
+var process = require("19794b9d48fee39f");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("b5ed1f6a3f8cd7a1");
     ]);
 });
 
-},{"b5ed1f6a3f8cd7a1":"jhUEF"}],"jhUEF":[function(require,module,exports) {
+},{"19794b9d48fee39f":"jhUEF"}],"jhUEF":[function(require,module,exports) {
 "use strict";
 
 },{}],"lKzq4":[function(require,module,exports) {
@@ -2877,9 +2877,9 @@ $RefreshReg$(_c, "Applayout");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Body":"8yaV8","./components/AddItem":"2MKPp","react-redux":"bdVon","./utils/store":"k2jPV","./components/UpdateItem":"5UVlG","./components/Login":"hsmcH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("b6fc513266049cfe");
+module.exports = require("35fb21557c872064");
 
-},{"b6fc513266049cfe":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"35fb21557c872064":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2891,7 +2891,7 @@ module.exports = require("b6fc513266049cfe");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("365dd48de609860f");
+    var React = require("334482993531ee23");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3710,11 +3710,11 @@ module.exports = require("b6fc513266049cfe");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"365dd48de609860f":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"334482993531ee23":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("9d438082b6614d63");
+module.exports = require("6ea5599388dd15e3");
 
-},{"9d438082b6614d63":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"6ea5599388dd15e3":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5582,7 +5582,7 @@ module.exports = require("9d438082b6614d63");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("68b99ec865c64537");
+var m = require("f3e3dcd032622610");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5601,7 +5601,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"68b99ec865c64537":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"f3e3dcd032622610":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5615,9 +5615,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("520a337ffb191d9c");
+module.exports = require("c2bf98ced1400784");
 
-},{"520a337ffb191d9c":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"c2bf98ced1400784":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5630,8 +5630,8 @@ module.exports = require("520a337ffb191d9c");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("ac18a75d58e24a37");
-    var Scheduler = require("59ad90f2a7a46483");
+    var React = require("9266a6456b327ac2");
+    var Scheduler = require("99076c04cfbb8a47");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26602,11 +26602,11 @@ module.exports = require("520a337ffb191d9c");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"ac18a75d58e24a37":"21dqq","59ad90f2a7a46483":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"9266a6456b327ac2":"21dqq","99076c04cfbb8a47":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("e016f035fe8a52f9");
+module.exports = require("90457cba55ed4f6d");
 
-},{"e016f035fe8a52f9":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"90457cba55ed4f6d":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -32271,7 +32271,7 @@ const Body = ()=>{
         getLinks();
     }, []);
     async function getLinks() {
-        const data = await fetch((0, _constants.url) + "/links/", {
+        const data = await fetch((0, _constants.baseURL) + "/notes/", {
             method: "GET",
             headers: {
                 "x-auth-token": localStorage.getItem("synclink_x-auth-token")
@@ -32530,9 +32530,9 @@ parcelHelpers.exportAll(_exports, exports);
 
 },{"use-sync-external-store/shim":"hyxdF","use-sync-external-store/shim/with-selector":"iDrhg","./utils/reactBatchedUpdates":"5K86X","./utils/batch":"ikw0G","./hooks/useSelector":"l3rFI","./components/connect":"5gOIw","./exports":"iAa1P","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hyxdF":[function(require,module,exports) {
 "use strict";
-module.exports = require("c68347963577e8d8");
+module.exports = require("ffd69800460c09ac");
 
-},{"c68347963577e8d8":"khU3l"}],"khU3l":[function(require,module,exports) {
+},{"ffd69800460c09ac":"khU3l"}],"khU3l":[function(require,module,exports) {
 /**
  * @license React
  * use-sync-external-store-shim.development.js
@@ -32545,7 +32545,7 @@ module.exports = require("c68347963577e8d8");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("67b2ab6f978caaa8");
+    var React = require("b85fd5c5dea1bfd3");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     function error(format) {
         for(var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++)args[_key2 - 1] = arguments[_key2];
@@ -32697,11 +32697,11 @@ module.exports = require("c68347963577e8d8");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"67b2ab6f978caaa8":"21dqq"}],"iDrhg":[function(require,module,exports) {
+},{"b85fd5c5dea1bfd3":"21dqq"}],"iDrhg":[function(require,module,exports) {
 "use strict";
-module.exports = require("cb8a024594219dd0");
+module.exports = require("a3e51b99be30b324");
 
-},{"cb8a024594219dd0":"vU6Qe"}],"vU6Qe":[function(require,module,exports) {
+},{"a3e51b99be30b324":"vU6Qe"}],"vU6Qe":[function(require,module,exports) {
 /**
  * @license React
  * use-sync-external-store-shim/with-selector.development.js
@@ -32714,8 +32714,8 @@ module.exports = require("cb8a024594219dd0");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("1b3e729e2b13b16");
-    var shim = require("3da39e47cb95bf94");
+    var React = require("5b2007a7028ebf5a");
+    var shim = require("b18920c738c7f6b1");
     /**
  * inlined Object.is polyfill to avoid requiring consumers ship their own
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
@@ -32819,7 +32819,7 @@ module.exports = require("cb8a024594219dd0");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"1b3e729e2b13b16":"21dqq","3da39e47cb95bf94":"hyxdF"}],"5K86X":[function(require,module,exports) {
+},{"5b2007a7028ebf5a":"21dqq","b18920c738c7f6b1":"hyxdF"}],"5K86X":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "unstable_batchedUpdates", ()=>(0, _reactDom.unstable_batchedUpdates));
@@ -33315,7 +33315,7 @@ exports.default = _objectWithoutPropertiesLoose;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1GfsB":[function(require,module,exports) {
 "use strict";
-var reactIs = require("7994aa4d46aa8225");
+var reactIs = require("e48005c372e6147c");
 /**
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
@@ -33397,11 +33397,11 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"7994aa4d46aa8225":"8V70c"}],"8V70c":[function(require,module,exports) {
+},{"e48005c372e6147c":"8V70c"}],"8V70c":[function(require,module,exports) {
 "use strict";
-module.exports = require("71a4969263cf5251");
+module.exports = require("d93331d1d1ed69e6");
 
-},{"71a4969263cf5251":"drjfK"}],"drjfK":[function(require,module,exports) {
+},{"d93331d1d1ed69e6":"drjfK"}],"drjfK":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -33560,9 +33560,9 @@ module.exports = require("71a4969263cf5251");
 
 },{}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("6c54baff85266f7d");
+module.exports = require("b6b39fd85243ee4c");
 
-},{"6c54baff85266f7d":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"b6b39fd85243ee4c":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /**
  * @license React
  * react-is.development.js
@@ -34350,8 +34350,8 @@ var _reselect = require("reselect");
 // src/getDefaultMiddleware.ts
 var _reduxThunk = require("redux-thunk");
 var _reduxThunkDefault = parcelHelpers.interopDefault(_reduxThunk);
-var process = require("47a282256e19b0c9");
 var global = arguments[3];
+var process = require("c88af472ca30fc1");
 var __extends = undefined && undefined.__extends || function() {
     var extendStatics = function(d, b) {
         extendStatics = Object.setPrototypeOf || ({
@@ -36361,7 +36361,7 @@ var autoBatchEnhancer = function(options) {
 // src/index.ts
 (0, _immer.enableES5)();
 
-},{"47a282256e19b0c9":"jhUEF","immer":"4sfoz","redux":"cDNB3","reselect":"isIsC","redux-thunk":"iFVTZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4sfoz":[function(require,module,exports) {
+},{"c88af472ca30fc1":"jhUEF","immer":"4sfoz","redux":"cDNB3","reselect":"isIsC","redux-thunk":"iFVTZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4sfoz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Immer", ()=>un);
@@ -38135,7 +38135,7 @@ exports.default = thunk;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("762480d948ca0970");
+var Refresh = require("c6625ef1a615862c");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -38266,7 +38266,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"762480d948ca0970":"786KC"}],"g6ZGj":[function(require,module,exports) {
+},{"c6625ef1a615862c":"786KC"}],"g6ZGj":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0b04 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38537,10 +38537,12 @@ $RefreshReg$(_c1, "InfoPageShimmer");
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "url", ()=>url);
+parcelHelpers.export(exports, "baseURL", ()=>baseURL);
 parcelHelpers.export(exports, "crossUrl", ()=>crossUrl);
 parcelHelpers.export(exports, "tickUrl", ()=>tickUrl);
 parcelHelpers.export(exports, "trashUrl", ()=>trashUrl);
-const url = "http://localhost:3017/api";
+const url = "http://localhost:4000/api";
+const baseURL = "http://localhost:4000/api";
 const crossUrl = "https://img.icons8.com/ios/50/null/cancel.png";
 const tickUrl = "https://img.icons8.com/ios/50/null/checkmark--v1.png";
 const trashUrl = "https://img.icons8.com/ios/50/fa7c73/trash--v1.png";
@@ -38674,9 +38676,11 @@ const AddItems = ()=>{
     //  function to post data to the server 
     function postData(dataa) {
         const data = {
-            "link": dataa
+            "notes": [
+                dataa
+            ]
         };
-        fetch((0, _constants.url) + "/links/", {
+        fetch((0, _constants.url) + "/notes/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -38714,12 +38718,12 @@ const AddItems = ()=>{
                                 children: "Cancel"
                             }, void 0, false, {
                                 fileName: "src/components/AddItem.js",
-                                lineNumber: 84,
+                                lineNumber: 86,
                                 columnNumber: 181
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/AddItem.js",
-                            lineNumber: 84,
+                            lineNumber: 86,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -38727,7 +38731,7 @@ const AddItems = ()=>{
                             children: "Add item"
                         }, void 0, false, {
                             fileName: "src/components/AddItem.js",
-                            lineNumber: 85,
+                            lineNumber: 87,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -38739,13 +38743,13 @@ const AddItems = ()=>{
                             children: "Save"
                         }, void 0, false, {
                             fileName: "src/components/AddItem.js",
-                            lineNumber: 86,
+                            lineNumber: 88,
                             columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/AddItem.js",
-                    lineNumber: 83,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false),
@@ -38759,12 +38763,12 @@ const AddItems = ()=>{
                         className: "bg-[#2F353D] mt-7 p-2 w-[97%] rounded-md hover:bg-[#4C525F] text-sm font-light text-white focus:outline-none focus:bg-[#4C525F]"
                     }, void 0, false, {
                         fileName: "src/components/AddItem.js",
-                        lineNumber: 99,
+                        lineNumber: 100,
                         columnNumber: 13
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/AddItem.js",
-                    lineNumber: 97,
+                    lineNumber: 98,
                     columnNumber: 10
                 }, undefined)
             }, void 0, false),
@@ -38777,12 +38781,12 @@ const AddItems = ()=>{
                     imgUrl: (0, _constants.crossUrl)
                 }, void 0, false, {
                     fileName: "src/components/AddItem.js",
-                    lineNumber: 107,
+                    lineNumber: 108,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/AddItem.js",
-                lineNumber: 106,
+                lineNumber: 107,
                 columnNumber: 9
             }, undefined)
         ]
@@ -38846,14 +38850,15 @@ const UpdateItem = ()=>{
         getLinkInfo();
     }, []);
     async function getLinkInfo() {
-        const data = await fetch((0, _constants.url) + "/links/" + id, {
+        const data = await fetch((0, _constants.baseURL) + "/notes/" + id, {
             method: "GET",
             headers: {
                 "x-auth-token": localStorage.getItem("synclink_x-auth-token")
             }
         });
-        const json = await data.json();
-        setLinkInfo(json[0]);
+        const json = await data.text();
+        console.log(json);
+        setLinkInfo(json);
         setIsLoaded(true);
     }
     //function to get back to home component 
@@ -38876,7 +38881,7 @@ const UpdateItem = ()=>{
     }, 1000);
     //function to delete the particular link
     function deleteData() {
-        fetch((0, _constants.url) + "/links/" + id, {
+        fetch((0, _constants.baseURL) + "/notes/" + id, {
             method: "DELETE",
             headers: {
                 "x-auth-token": localStorage.getItem("synclink_x-auth-token")
@@ -38909,12 +38914,12 @@ const UpdateItem = ()=>{
                                 children: "Close"
                             }, void 0, false, {
                                 fileName: "src/components/UpdateItem.js",
-                                lineNumber: 98,
+                                lineNumber: 99,
                                 columnNumber: 181
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 98,
+                            lineNumber: 99,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -38922,7 +38927,7 @@ const UpdateItem = ()=>{
                             children: "View link"
                         }, void 0, false, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 99,
+                            lineNumber: 100,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -38930,13 +38935,13 @@ const UpdateItem = ()=>{
                             children: "Edit"
                         }, void 0, false, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 100,
+                            lineNumber: 101,
                             columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/UpdateItem.js",
-                    lineNumber: 97,
+                    lineNumber: 98,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false),
@@ -38952,12 +38957,12 @@ const UpdateItem = ()=>{
                                 className: "bg-[#2F353D] mt-7 p-2 w-[97%] rounded-md hover:bg-[#4C525F] text-sm font-light text-white focus:outline-none focus:bg-[#4C525F] hover:cursor-text "
                             }, void 0, false, {
                                 fileName: "src/components/UpdateItem.js",
-                                lineNumber: 110,
+                                lineNumber: 111,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 107,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false),
@@ -38973,7 +38978,7 @@ const UpdateItem = ()=>{
                                     src: (0, _constants.trashUrl)
                                 }, void 0, false, {
                                     fileName: "src/components/UpdateItem.js",
-                                    lineNumber: 118,
+                                    lineNumber: 119,
                                     columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -38981,13 +38986,13 @@ const UpdateItem = ()=>{
                                     children: "Delete item"
                                 }, void 0, false, {
                                     fileName: "src/components/UpdateItem.js",
-                                    lineNumber: 118,
+                                    lineNumber: 119,
                                     columnNumber: 36
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 117,
+                            lineNumber: 118,
                             columnNumber: 12
                         }, undefined)
                     }, void 0, false),
@@ -39000,19 +39005,19 @@ const UpdateItem = ()=>{
                                 imgUrl: (0, _constants.crossUrl)
                             }, void 0, false, {
                                 fileName: "src/components/UpdateItem.js",
-                                lineNumber: 125,
+                                lineNumber: 126,
                                 columnNumber: 15
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/UpdateItem.js",
-                            lineNumber: 124,
+                            lineNumber: 125,
                             columnNumber: 12
                         }, undefined)
                     }, void 0, false)
                 ]
             }, void 0, true) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmer.InfoPageShimmer), {}, void 0, false, {
                 fileName: "src/components/UpdateItem.js",
-                lineNumber: 130,
+                lineNumber: 131,
                 columnNumber: 9
             }, undefined)
         ]
@@ -39051,6 +39056,7 @@ var _formik = require("formik");
 var _rocketLogo2Png = require("../components/assets/img/rocket_logo2.png");
 var _rocketLogo2PngDefault = parcelHelpers.interopDefault(_rocketLogo2Png);
 var _reactRouterDom = require("react-router-dom");
+var _constants = require("../constants");
 var _s = $RefreshSig$();
 // "../assets/img/rocket_logo2.png"
 const Basic = ()=>{
@@ -39069,26 +39075,24 @@ const Basic = ()=>{
         setInvalidMsg(false);
     }, 1200);
     function postData(data) {
-        console.log(data, "dd");
-        debugger;
-        fetch("http://localhost:3017/login/", {
+        fetch(`${(0, _constants.baseURL)}/auth/login`, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(data)
         }).then((response)=>{
-            if (response.status === 200) {
-                const jaya = response.headers.get("x-auth-token");
-                localStorage.setItem("synclink_x-auth-token", jaya);
-                // console.log(jaya);
-                go_to_home();
-            // alert(jaya);
-            } else {
+            if (response.ok) return response.text();
+            else {
                 setInvalidMsg(true);
-                return 0;
+                return Promise.reject("Error");
             }
+        }).then((token)=>{
+            localStorage.setItem("synclink_x-auth-token", token);
+            go_to_home();
+        }).catch((error)=>{
+            // Handle errors here
+            console.error("Error:", error);
         });
     }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39128,7 +39132,7 @@ const Basic = ()=>{
                                 className: "bg-[#3C434E] mt-[5%] md:w-[35%] md:mt-[2.8%] sm:w-[45%] sm:mt-[3.5%] w-[50%] p-2 ml-auto mr-auto text-sm font-light text-white rounded-md focus:outline-none focus:bg-[#4C525F]"
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 95,
+                                lineNumber: 93,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39136,7 +39140,7 @@ const Basic = ()=>{
                                 children: errors.email && touched.email && errors.email
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 104,
+                                lineNumber: 102,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -39149,7 +39153,7 @@ const Basic = ()=>{
                                 className: " bg-[#3C434E] mt-[5%] md:w-[35%] md:mt-[2.8%] sm:w-[45%] sm:mt-[3.5%] w-[50%] p-2 ml-auto mr-auto text-sm font-light text-white rounded-md focus:outline-none focus:bg-[#4C525F]"
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 110,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -39157,7 +39161,7 @@ const Basic = ()=>{
                                 children: errors.password && touched.password && errors.password
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 119,
+                                lineNumber: 117,
                                 columnNumber: 13
                             }, undefined),
                             invalidMsg ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -39165,7 +39169,7 @@ const Basic = ()=>{
                                 children: "Invalid username or password"
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 123,
+                                lineNumber: 121,
                                 columnNumber: 28
                             }, undefined) : "",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -39178,23 +39182,23 @@ const Basic = ()=>{
                                     className: ""
                                 }, void 0, false, {
                                     fileName: "src/components/Login.js",
-                                    lineNumber: 125,
+                                    lineNumber: 123,
                                     columnNumber: 14
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Login.js",
-                                lineNumber: 124,
+                                lineNumber: 122,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Login.js",
-                        lineNumber: 94,
+                        lineNumber: 92,
                         columnNumber: 11
                     }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Login.js",
-                lineNumber: 65,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -39203,18 +39207,18 @@ const Basic = ()=>{
                     ref: clicked
                 }, void 0, false, {
                     fileName: "src/components/Login.js",
-                    lineNumber: 130,
+                    lineNumber: 128,
                     columnNumber: 24
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Login.js",
-                lineNumber: 130,
+                lineNumber: 128,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Login.js",
-        lineNumber: 64,
+        lineNumber: 62,
         columnNumber: 5
     }, undefined);
 };
@@ -39229,18 +39233,18 @@ const Login = ()=>{
                 children: "Synclink."
             }, void 0, false, {
                 fileName: "src/components/Login.js",
-                lineNumber: 140,
+                lineNumber: 138,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Basic, {}, void 0, false, {
                 fileName: "src/components/Login.js",
-                lineNumber: 141,
+                lineNumber: 139,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Login.js",
-        lineNumber: 138,
+        lineNumber: 136,
         columnNumber: 5
     }, undefined);
 };
@@ -39255,7 +39259,7 @@ $RefreshReg$(_c1, "Login");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","formik":"aefoQ","../components/assets/img/rocket_logo2.png":"d6hbr","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aefoQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","formik":"aefoQ","../components/assets/img/rocket_logo2.png":"d6hbr","react-router-dom":"9xmpe","../constants":"3huJa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aefoQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ErrorMessage", ()=>ErrorMessage);
@@ -43884,9 +43888,9 @@ var _baseCloneJsDefault = parcelHelpers.interopDefault(_baseCloneJs);
 exports.default = cloneDeep;
 
 },{"./_baseClone.js":"dBps5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d6hbr":[function(require,module,exports) {
-module.exports = require("8d10fc192dc01623").getBundleURL("lPpKD") + "rocket_logo2.9ecb3f2b.png" + "?" + Date.now();
+module.exports = require("46da5fe43c986dca").getBundleURL("lPpKD") + "rocket_logo2.9ecb3f2b.png" + "?" + Date.now();
 
-},{"8d10fc192dc01623":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"46da5fe43c986dca":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
