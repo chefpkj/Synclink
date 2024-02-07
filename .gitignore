@@ -1,3 +1,5 @@
+new Backend/node_modules
+react-frontend/node_modules
 node_modules
 .parcel-cache
 dist

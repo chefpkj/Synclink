@@ -1,5 +1,5 @@
 import Users from "../models/users.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwtControls from "../middleware/jwtControls.js";
 const login = async (req_body) => {
   const user = await Users.findOne({ email: req_body.email });
