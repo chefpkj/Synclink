@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  react-app:
+    build: ./react-frontend
+    container_name: synclink_frontend
+    ports:
+      - "1234:1234"
+    stdin_open: true
+    tty: true
+  backend-app:
+    build: ./new Backend
+    container_name: synclink_backend
+    ports:
+      - "4000:4000"
+  
