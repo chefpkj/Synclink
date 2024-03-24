@@ -5,7 +5,7 @@ import notesRoutes from "./notesRoutes.js";
 const router = express.Router();
 
 
-router.use("/auth", authRoutes);
-router.use("/notes", notesRoutes);
+router.use(authRoutes);
+router.use(notesRoutes);
 
 export default router;

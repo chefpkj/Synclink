@@ -1,20 +1,20 @@
-import express from "express";
+import {Router} from "express";
 import controller from "../controllers/authController.js";
-const router = express.Router();
+const router = Router();
 
-router
-  .route("/login")
-  .get((req, res) => {
-    return res.status(200).send("welcome to login page!!");
-  })
-  .post(controller.login);
 
-router
-  .route("/signup")
-  .get((req, res) => {
-    return res.status(200).send("this is signup routes!!");
+router.post("/login", controller.login);
+router.post("/signup", controller.signup);
+
+
+router.get("/check",(req,res)=>{
+  return res.status(200).send({
+    status:200,
+    message:"this is message!!"
   })
-  .post(controller.signup);
+})
+
+
 
 export default router;
 // localhost:4000/api/auth
